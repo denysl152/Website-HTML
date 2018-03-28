@@ -1,0 +1,19 @@
+.ldlf{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 200px;
+    height: 22%;
+}
+@media all and (max-width: 1350px){
+    .ldlf{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .card{
+        margin-top: 20px;
+
+    }
+}
